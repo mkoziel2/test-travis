@@ -5,4 +5,4 @@ before_install:
   - docker build -t test-travis/latest .
 
 script:
-  - docker run test-travix/latest npm run test
+  - docker run test-travis/latest npm run test
